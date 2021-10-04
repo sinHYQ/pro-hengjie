@@ -1,0 +1,203 @@
+/* 初始化页面 */
+* {
+  padding: 0;
+  margin: 0;
+}
+a:active,
+a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+/* 主体区域 */
+body {
+  background: url(../images/salable-h/bg-top-ten.jpg) repeat-y center 0;
+}
+.salable-container {
+  width: 100%;
+  padding: 18.15em 0 13.2em 0;
+}
+@media screen and(min-width: 1480px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container {
+  width: 950px;
+}
+/* NO.1  */
+.salable-container .salable-list .salable-item.pull-right-side {
+  text-align: left;
+}
+.salable-container .salable-list .salable-item {
+  position: relative;
+}
+/* 文本 */
+.salable-container .salable-list .salable-item .salable-item-info {
+  position: relative;
+  top: 0;
+  z-index: 5;
+}
+.salable-container
+  .salable-list
+  .salable-item
+  .salable-item-info
+  .salable-item-info-mark {
+  width: 18em;
+}
+.salable-container
+  .salable-list
+  .salable-item.pull-right-side
+  .salable-item-info-mark
+  .popularity {
+  float: right;
+}
+.salable-container
+  .salable-list
+  .salable-item
+  .salable-item-info
+  .salable-item-info-mark
+  .popularity {
+  width: 34%;
+  color: #56595a;
+  margin-top: 3.6em;
+}
+.salable-container
+  .salable-list
+  .salable-item
+  .salable-item-info
+  .salable-item-info-mark
+  .hegii-rank {
+  width: 66%;
+  display: inline-block;
+}
+.salable-container
+  .salable-list
+  .salable-item
+  .salable-item-info
+  .salable-item-info-mark
+  .hegii-rank
+  .number-ranking {
+  font-size: 3.5em;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  font-weight: 700;
+}
+.salable-container .salable-list .salable-item.color-blue .number-ranking,
+.salable-container .salable-list .salable-item.color-blue .read-more,
+.salable-container .salable-list .salable-item.color-blue h3,
+.salable-container .salable-list .salable-item.color-blue small {
+  color: #002e64;
+}
+.salable-container
+  .salable-list
+  .salable-item
+  .salable-item-info
+  .salable-item-info-mark
+  .hegii-rank
+  small {
+  font-size: 12px;
+  font-weight: 700;
+}
+.salable-container .salable-list .salable-item.color-blue .number-ranking,
+.salable-container .salable-list .salable-item.color-blue .read-more,
+.salable-container .salable-list .salable-item.color-blue h3,
+.salable-container .salable-list .salable-item.color-blue small {
+  color: #002e64;
+}
+.salable-container
+  .salable-list
+  .salable-item
+  .salable-item-info
+  .salable-item-info-mark
+  h3 {
+  font-size: 1.8em;
+  margin: 0;
+  margin: 0.6em 0;
+  font-weight: 700;
+}
+
+.salable-container .salable-list .salable-item.color-blue .number-ranking,
+.salable-container .salable-list .salable-item.color-blue .read-more,
+.salable-container .salable-list .salable-item.color-blue h3,
+.salable-container .salable-list .salable-item.color-blue small {
+  color: #002e64;
+}
+.salable-container .salable-list .salable-item .salable-item-info .model,
+.salable-container .salable-list .salable-item .salable-item-info .slogan {
+  font-size: 1.1em;
+  height: 1.6em;
+  line-height: 1.6em;
+}
+.salable-container .salable-list .salable-item .salable-item-info .read-more {
+  margin-top: 2.5em;
+}
+
+.salable-container .salable-list .salable-item .salable-item-info .read-more {
+  display: inline-block;
+  margin-top: 0.5em;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.salable-container .salable-list .salable-item .salable-image {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.salable-container
+  .salable-list
+  .salable-item
+  .salable-item-info
+  .salable-item-info-mark
+  .popularity
+  span {
+  color: #e71f5d;
+}
+/* NO.2  */
+.salable-container .salable-list .salable-item.pull-left-side {
+  text-align: right;
+}
+.salable-container
+  .salable-list
+  .salable-item.pull-left-side
+  .salable-item-info-mark {
+  float: right;
+}
+.salable-container
+  .salable-list
+  .salable-item
+  .salable-item-info
+  .salable-item-info-mark {
+  width: 18em;
+}
+.salable-container .salable-list .salable-item.color-blue2 .number-ranking,
+.salable-container .salable-list .salable-item.color-blue2 .read-more,
+.salable-container .salable-list .salable-item.color-blue2 h3,
+.salable-container .salable-list .salable-item.color-blue2 small {
+  color: #00abe6;
+}
+.salable-container .salable-list .salable-item .salable-item-info .read-more {
+  margin-top: 2.5em;
+}
+/* No.5  */
+.salable-container .salable-list .salable-item.color-green .number-ranking,
+.salable-container .salable-list .salable-item.color-green .read-more,
+.salable-container .salable-list .salable-item.color-green h3,
+.salable-container .salable-list .salable-item.color-green small {
+  color: #00a7b5;
+}
+/* No.6  */
+.salable-container .salable-list .salable-item.color-gold .number-ranking,
+.salable-container .salable-list .salable-item.color-gold .read-more,
+.salable-container .salable-list .salable-item.color-gold h3,
+.salable-container .salable-list .salable-item.color-gold small {
+  color: #caa977;
+}
+/* No.8  */
+.salable-container .salable-list .salable-item.color-purple .number-ranking,
+.salable-container .salable-list .salable-item.color-purple .read-more,
+.salable-container .salable-list .salable-item.color-purple h3,
+.salable-container .salable-list .salable-item.color-purple small {
+  color: #606eb2;
+}

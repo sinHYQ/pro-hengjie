@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>畅销榜单</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="../css/public.css">
+    <!-- 引入本页面的样式 -->
+    <link rel="stylesheet" href="../css/salable-h.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="theme-dark clearifix">
+        <!-- 左边logo部分 -->
+        <div class="logo pull-left">
+            <a href="#">
+                <img src="../images/theme-dark-logo.png" alt="">
+            </a>
+        </div>
+        <!-- 右边导航栏部分 -->
+        <div class="header pull-right">
+            <nav>
+                <ul>
+                    <li><a href="#">畅销榜单</a></li>
+                    <li><a href="#" class="starXi">明星系列</a></li>
+                    <li><a href="#" class="proXi">产品一览</a></li>
+                    <li><a href="#">套间灵感</a></li>
+                    <li><a href="#" class="supXi">技术服务</a></li>
+                    <li><a href="#">关于恒洁</a></li>
+                    <li><a href="#">官方商城</a></li>
+                    <li><a href="#">网点查询</a></li>
+                    <li class="zoom">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </a>
+                    </li>
+                    <li><a href="#">EN</a></li>
+                </ul>
+    
+            </nav>
+            <!-- 侧边栏 -->
+            <div class="site-assistant">
+                <a href="#" class="assistant-switch">
+                    <img src="../images/icon-assistant-open.jpg" alt="">
+                </a>
+                <!-- 隐藏栏 -->
+                <ul class="assistant-switch-none">
+                    <li>
+                        <a href="#" class="assistant-switch-none1">
+                            <img src="../images/assistant-icon-01.png" alt="" class="center-block">
+                            <span>最新活动</span>
+                        </a>
+                        <!-- 隐藏栏 -->
+                        <div class="assistant-banner-pop">
+                            <a href="#"><img src="../images/banner22683.jpg" alt=""></a>
+                            <a href="#"><img src="../images/pc226-83.jpg" alt=""></a>
+                            <a href="#"><img src="../images/500x185-2.jpg" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/assistant-icon-02.png" alt="" class="center-block">
+                            <span>在线客服</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/assistant-icon-03.png" alt="" class="center-block">
+                            <span>网点查询</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="assistant-switch-none2">
+                            <img src="../images/assistant-icon-wechat.png" alt="" class="center-block">
+                            <span>关注微信</span>
+                        </a>
+                        <!-- 二级隐藏栏 -->
+                        <div class="assistant-wechat-pop">
+                            <a href="#"><img src="../images/qrcode-wechat-top.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="noneB">
+                            <img src="../images/assistant-icon-weibo.png" alt="" class="center-block">
+                            <span>关注微博</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 头部的隐藏栏 -->
+        <!-- 明星系列隐藏栏 -->
+        <div class="docker-container1-pa">
+            <ul class="docker-container1">
+                <li class="col-md-3">
+                    <a href="#">
+                        <span>&nbsp;</span>
+                        <span>中国正当潮</span>
+                    </a>
+                </li>
+                <li class="col-md-3">
+                    <a href="#">
+                        <span>&nbsp;</span>
+                        <span>万家一品</span>
+                    </a>
+                </li>
+                <li class="col-md-3">
+                    <a href="#">
+                        <span>&nbsp;</span>
+                        <span>智能双Q</span>
+                    </a>
+                </li>
+                <li class="col-md-3">
+                    <a href="#">
+                        <span>&nbsp;</span>
+                        <span>唤新浴室柜</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 产品一览隐藏栏 -->
+        <div class="docker-container2-pa">
+            <ul class="docker-container2">
+                <li class="col-md-2">
+                    <img src="../images/卫生区.jpg" alt="">
+                    <h5>卫生区</h5>
+                    <ul>
+                        <li>
+                            <a href="#">智能一体机</a>
+                        </li>
+                        <li>
+                            <a href="#">智能盖板</a>
+                        </li>
+                        <li>
+                            <a href="#">坐便器</a>
+                        </li>
+                        <li>
+                            <a href="#">蹲便器/配件</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="col-md-2">
+                    <img src="../images/盥洗区.jpg" alt="">
+                    <h5>盥洗区</h5>
+                    <ul>
+                        <li>
+                            <a href="#">浴室柜</a>
+                        </li>
+                        <li>
+                            <a href="#">多功能镜</a>
+                        </li>
+                        <li>
+                            <a href="#">面盆</a>
+                        </li>
+                        <li>
+                            <a href="#">面盆龙头</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="col-md-2">
+                    <img src="../images/淋浴区.jpg" alt="">
+                    <h5>淋浴区</h5>
+                    <ul>
+                        <li>
+                            <a href="#">花洒</a>
+                        </li>
+                        <li>
+                            <a href="#">淋浴龙头</a>
+                        </li>
+                        <li>
+                            <a href="#">淋浴房</a>
+                        </li>
+                        <li>
+                            <a href="#">浴缸</a>
+                        </li>
+                        <li>
+                            <a href="#">浴缸龙头</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="col-md-2">
+                    <img src="../images/nav-listmenu-04.jpg" alt="">
+                    <h5>浴室小五金</h5>
+                    <ul>
+                        <li>
+                            <a href="#">五金挂件</a>
+                        </li>
+                        <li>
+                            <a href="#">五金配件</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="col-md-2">
+                    <img src="../images/nav-listmenu-05.jpg" alt="">
+                    <h5>厨房阳台</h5>
+                    <ul>
+                        <li>
+                            <a href="#">水槽</a>
+                        </li>
+                        <li>
+                            <a href="#">厨房龙头</a>
+                        </li>
+                        <li>
+                            <a href="#">洗衣柜</a>
+                        </li>
+                        <li>
+                            <a href="#">拖把池</a>
+                        </li>
+                        <li>
+                            <a href="#">阳台五金</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="col-md-2">
+                    <img src="../images/nav-listmenu-06.jpg" alt="">
+                    <h5>商用产品</h5>
+                    <ul>
+                        <li>
+                            <a href="#">商用电子类</a>
+                        </li>
+                        <li>
+                            <a href="#">商用五金</a>
+                        </li>
+                        <li>
+                            <a href="#">商用便器</a>
+                        </li>
+                        <li>
+                            <a href="#">小便斗</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- 技术服务隐藏栏 -->
+        <div class="docker-container3-pa">
+            <ul class="docker-container3">
+                <li class="col-md-3">
+                    <a href="#">
+                        <span>&nbsp;</span>
+                        <span>恒洁技术</span>
+                    </a>
+                </li>
+                <li class="col-md-3">
+                    <a href="#">
+                        <span>&nbsp;</span>
+                        <span>恒洁服务1350</span>
+                    </a>
+                </li>
+                <li class="col-md-3">
+                    <a href="#">
+                        <span>&nbsp;</span>
+                        <span>恒洁质保</span>
+                    </a>
+                </li>
+                <li class="col-md-3">
+                    <a href="#">
+                        <span>&nbsp;</span>
+                        <span>恒洁百科</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- 主体 -->
+    <div class="salable-container">
+        <div class="salable-list container">
+            <!-- NO.1 -->
+            <div class="salable-item pull-right-side color-blue clearfix" style="padding-left: 60%;">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="32409" href="javascript:;"><span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>9925</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.1</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>恒洁Q9智能一体机</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">HCE900A01</div>
+                    <div class="slogan">智能翻盖带来极致未来体验</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:30em;left:8.5%;top:-5em;">
+                    <a name="salable-01"></a>
+                    <img src="../images/salable-h/top-02.png" class="img-responsive" alt="恒洁Q9智能一体机">
+                </div>
+            </div>
+            <!-- No.2 -->
+            <div class="salable-item pull-left-side color-blue clearfix" style="padding-right: 52.1%; margin-top: 12em;">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="3576" href="javascript:;"><span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>1300</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.2</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>恒洁Q8智能一体机</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">HCE800A01</div>
+                    <div class="slogan">智商高，情商更高</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:24.4em;left:57.2%;top:-5em;">
+                    <a name="salable-02"></a>
+                    <img src="../images/salable-h/top1_1.png" class="img-responsive" alt="恒洁Q8智能一体机">
+                </div>
+            </div>
+            <!-- No.3  -->
+            <div class="salable-item pull-right-side color-blue2 clearfix" style="padding-left: 34.5%;margin-top: 10.5em;">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="19369" href="javascript:;">
+                            <span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>7111</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.3</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>简奢系列浴室柜</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">HBT101005N-120</div>
+                    <div class="slogan">从生活到艺术</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:20.4em;left:0;top:-1em;">
+                    <a name="salable-03"></a>
+                    <img src="../images/salable-h/guizi.png" class="img-responsive" alt="简奢系列浴室柜">
+                </div>
+            </div>
+            <!-- No.4  -->
+            <div class="salable-item pull-left-side color-blue2 clearfix" style="padding-right: 34.1%; margin-top: 14em;">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="30492" href="javascript:;"><span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>1571</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.4</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>美式质朴系列浴室柜</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">BC6017-100</div>
+                    <div class="slogan">质朴风格，美式情调</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:19.58em;right:0;top:-12em;">
+                    <a name="salable-04"></a>
+                    <img src="../images/salable-h/pc-浴室柜.png" class="img-responsive" alt="美式质朴系列浴室柜">
+                </div>
+            </div>
+            <!-- No.5  -->
+            <div class="salable-item pull-right-side color-green clearfix" style="padding-left: 45%;  margin-top: 9.65em;">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="3629" href="javascript:;"><span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>6024</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.5</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>超旋风节水坐便器</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">HC0168DT</div>
+                    <div class="slogan">3.5L一键节水，超导水圈</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:20em;left:5%;top:-5em;">
+                    <a name="salable-05"></a>
+                    <img src="../images/salable-h/top-09.png" class="img-responsive" alt="超旋风节水坐便器">
+                </div>
+            </div>
+            <!-- No.6  -->
+            <div class="salable-item pull-left-side color-gold clearfix" style="padding-right: 24.7%;  margin-top: 8.3em; ">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="22447" href="javascript:;"><span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>78</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.6</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>恒洁新翼T10大花洒</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">HMF115-333A</div>
+                    <div class="slogan">创新科技 舒适畅爽</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:15.39em;right:0%;top:-11em;">
+                    <a name="salable-06"></a>
+                    <img src="../images/salable-h/hmf115-333a.png" class="img-responsive" alt="恒洁新翼T10大花洒">
+                </div>
+            </div>
+            <!-- No.7  -->
+            <div class="salable-item pull-right-side color-gold clearfix" style="padding-left: 17.8%;  margin-top: 6.6em;">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="30407" href="javascript:;"><span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>256</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.7</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>恒洁新翼T2大花洒</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">HMF112-333</div>
+                    <div class="slogan">置物平台 取放随心</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:15.74em;left:3%;top:-18em;">
+                    <a name="salable-07"></a>
+                    <img src="../images/salable-h/pc-花洒-副本.png" class="img-responsive" alt="恒洁新翼T2大花洒">
+                </div>
+            </div>
+            <!-- No.8  -->
+            <div class="salable-item pull-left-side color-purple clearfix" style="padding-right: 54.2%; margin-top: 11.85em;">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="20378" href="javascript:;"><span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>197</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.8</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>超薄水箱系列坐便器</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">HC0169PT</div>
+                    <div class="slogan">不减舒适 更省空间</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:21.38em;right:14%;top:-5em;">
+                    <a name="salable-10"></a>
+                    <img src="../images/salable-h/pc-马桶副本.png" class="img-responsive" alt="超薄水箱系列坐便器">
+                </div>
+            </div>
+            <!-- No.9  -->
+            <div class="salable-item pull-right-side color-green clearfix" style="padding-left: 42%; margin-top: 11em;">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="19222" href="javascript:;"><span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>1199</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.9</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>易至免等待淋浴房</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">易至HLG61系列</div>
+                    <div class="slogan">轻定制，免等待，即买即提即安装</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:20.33em;left:4%;top:-6em;">
+                    <a name="salable-09"></a>
+                    <img src="../images/salable-h/61-pc副本.png" class="img-responsive" alt="易至免等待淋浴房">
+                </div>
+            </div>
+            <!-- No.10  -->
+            <div class="salable-item pull-left-side color-purple clearfix" style="padding-right: 54.6%; margin-top: 9.3em;">
+                <div class="salable-item-info">
+                    <div class="salable-item-info-mark clearfix">
+                        <a class="rank-like popularity" data-popularity-id="4147" href="javascript:;"><span
+                                class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;<small>766</small>&nbsp;赞</a>
+                        <div class="hegii-rank">
+                            <div class="number-ranking">NO.10</div>
+                            <small>恒洁畅销榜单</small>
+                        </div>
+                        <h3>豪华嵌入式双人按摩缸</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="model">恒洁HLB663系列按摩缸</div>
+                    <div class="slogan">水悦SPA浴缸，让你随心所浴，乐享水悦身心的生活</div>
+                    <a class="read-more" href="#">了解详情</a>
+                </div>
+                <div class="salable-image" style="width:33.23em;right:0;top:-1em;">
+                    <a name="salable-08"></a>
+                    <img src="../images/salable-h/top-08.png" class="img-responsive" alt="豪华嵌入式双人按摩缸">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部 尾部 尾部-->
+    <footer>
+            <div class="container">
+                <div class="clearfix footer-nav">
+                    <div class="col-md-8">
+                        <ul class="col-md-3">
+                            <li>
+                                <h5>快速链接</h5>
+                            </li>
+                            <li><a href="#">畅销榜单</a></li>
+                            <li><a href="#">智能双Q</a></li>
+                            <li><a href="#">官方商城</a></li>
+                            <li><a href="#">网点查询</a></li>
+                            <li><a href="#">恒洁百科</a></li>
+                        </ul>
+                        <ul class="col-md-3">
+                            <li>
+                                <h5>产品分类</h5>
+                            </li>
+                            <li><a href="#">智能一体机</a></li>
+                            <li><a href="#">智能盖板</a></li>
+                            <li><a href="#">坐便器</a></li>
+                            <li><a href="#">浴室柜</a></li>
+                            <li><a href="#">花洒</a></li>
+                            <li><a href="#">淋浴房</a></li>
+                            <li><a href="#">浴缸</a></li>
+                            <li><a href="#">面盆</a></li>
+                        </ul>
+                        <ul class="col-md-3">
+                            <li>
+                                <h5>关于恒洁</h5>
+                            </li>
+                            <li><a href="#">品牌文化</a></li>
+                            <li><a href="#">发展历程</a></li>
+                            <li><a href="#">品牌荣誉</a></li>
+                            <li><a href="#">全部新闻</a></li>
+                            <li><a href="#">加入我们</a></li>
+                            <li><a href="#">恒洁影像</a></li>
+                            <li><a href="#">工程案例</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-logo"><img src="../images/footer-logo-big.png" class="img-responsive"></div>
+                        <div class="footer-logo"><img src="../images/footer-logo-people.png" class="img-responsive"></div>
+                        <p>全国服务热线</p>
+                        <p class="tel">400-833-1350</p>
+                        <div class="footer-social clearfix">
+                            <p>关注我们：</p>
+                            <div class="social-wechat">
+                                <a class="" href="#"></a>
+                                <div class="social-wechat-pop" style="display: none;"><img
+                                        src="../images/qrcode-wechat-footer.jpg" class="img-responsive"></div>
+                            </div>
+                            <div class="social-weibo">
+                                <a class="" href="#"></a>
+                            </div>
+                        </div>
+                        <p>服务时间：7*24小时</p>
+                    </div>
+                </div>
+                <div class="clearfix copyright">
+                    <div class="col-md-5">
+                        <ul class="clearfix">
+                            <li><a href="#">隐私声明</a></li>
+                            <li><a href="#">法律声明</a></li>
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">网站地图</a></li>
+                        </ul>
+                        <div style="margin-top:20px;display:none;"></div>
+                    </div>
+                    <div class="col-md-7">
+                        广东恒洁卫浴有限公司版权所有 COPYRIGHT 2020 HEGII <a href="#" target="_blank">粤ICP备10071902号-4</a><br>
+                        <small>*广告描述以本网站描述为准</small>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!-- 返回顶部 -->
+    <div class="go-top">
+        <a href="#">
+            <img src="../images/btn-go-top.jpg" alt="">
+        </a>
+    </div>
+    <!-- 引入js库 -->
+    <script src="../js/jQuery.compress.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../js/salable-h.js"></script>
+</body>
+</html>

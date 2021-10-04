@@ -1,0 +1,322 @@
+/* 初始化页面 */
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+a:hover,
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+}
+/* 头部 */
+header.theme-bright .header nav a {
+    color: #fff;
+}
+header{
+  font-size: 14px;
+}
+
+.site-assistant ul>li>a>img{
+  width: 40px;
+  height: 30px;
+}
+/* 主体 */
+img {
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 1366px) {
+  html,
+  body {
+    font-size: 0.6vw;
+  }
+}
+@media screen and (max-width: 1920px) {
+  html,
+  body {
+    font-size: 0.7vw;
+  }
+}
+html,
+body {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+}
+@media screen and (max-width: 1920px) {
+  .container2 {
+    width: 100%;
+  }
+}
+.container2 {
+  max-width: 1920px;
+  font-size: 0.5em;
+  height: 100%;
+  margin: 0 auto;
+  /* overflow-x: hidden; */
+}
+section.first {
+  margin-top: 7em;
+}
+@media screen and (max-width: 1366px) {
+  section .title {
+    width: 28%;
+  }
+}
+section {
+  width: 84%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-bottom: 12em;
+}
+/* 每部分的标题 */
+section .title {
+  width: 34%;
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+section .sub-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #434343;
+    margin-top: 2em;
+    font-weight: bold;
+}
+img.title {
+  width: 297px;
+  height: 34px;
+  margin: 0 auto;
+}
+section .intro {
+  text-align: center;
+  font-size: 2em;
+  color: #434343;
+  margin-top: 1em;
+  line-height: 150%;
+}
+/* 视频部分 */
+.video-list.column1 {
+  position: relative;
+  width: 65.9%;
+  max-width: 1055px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-list {
+  margin-top: 4em;
+  overflow: hidden;
+}
+/* 播放按钮 */
+.video-list .play {
+  width: 16%;
+  max-width: 136px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+}
+section .sub-title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #434343;
+  margin-top: 2em;
+  font-weight: bold;
+}
+/* 查看内容 */
+section .newline {
+    width: 76%;
+    margin: 4em auto 0;
+    position: relative;
+}
+section .newline a {
+  display: block;
+  position: absolute;
+  right: 2%;
+  bottom: 0;
+  z-index: 1;
+  width: 20%;
+  height: 13%;
+}
+.newline>img{
+    width: 807px;
+    height: 319px;
+    margin: 0 auto;
+}
+/* logo  */
+section .logo1 {
+  width: 22.5%;
+  max-width: 433px;
+  margin: 2em auto 0;
+}
+/* 图片区域 */
+.video-list .poster {
+  position: relative;
+  cursor: pointer;
+}
+/* 文字区域 */
+.video-list .name {
+  background-color: #d6d6d6;
+  font-size: 1.5em;
+  padding: 0.4em 0.7em;
+  color: #434343;
+  text-align: center;
+}
+.video-list .poster:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/wjyp-h/play.svg) no-repeat center center;
+  background-size: 16% auto;
+}
+/* 第二部分--明星品类 */
+  section.full {
+    width: 100%;
+    max-width: none;
+}
+.kv2-panel {
+    margin-top: 4.7em;
+}
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+/* 国风好物 */
+.products {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.7em;
+}
+.products a:first-child {
+    margin-left: 0;
+}
+.products a {
+    flex: 1 0 23%;
+    margin-left: 2%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+}
+.products a .img-panel {
+    background: #fff;
+    background: radial-gradient(ellipse at center, #fff 0%, #e6e6e6 100%);
+  }
+  /* 文本区域 */
+  .products a .text {
+    background-color: #fff;
+    padding: 1em .7em;
+    color: #434343;
+    text-align: center;
+}
+.products a .text .name {
+    font-weight: bold;
+    font-size: 1.875em;
+}
+.products a .text .intro {
+    margin-top: .2em;
+    line-height: 140%;
+    font-size: 1.5em;
+}
+section .intro {
+    text-align: center;
+    font-size: 2em;
+    color: #434343;
+    margin-top: 1em;
+    line-height: 150%;
+}
+/* 鼠标放入到a的时候，盒子会变大 */
+.products a:hover {
+    transform: scale(1.1);
+}
+/* 底部 */
+footer{
+  font-size: 16px;
+}
+/* 播放页面--蒙版 */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    /* 透明 */
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+.header ul:hover li a{
+  color: #666;
+}
+/* 添加的类名为show时的状态 */
+.popup.show {
+    transition: opacity .5s;
+   display: block;
+    z-index: 1000;
+    display: flex !important;
+}
+.popup .panel {
+    width: 70vw;
+    height: 39.375vw;
+    position: relative;
+    background-color: #000;
+}
+/* 关闭按钮 */
+.popup .panel .close {
+    width: 10vw;
+    height: 10vw;
+    max-width: 32px;
+    max-height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, -120%);
+    cursor: pointer;
+    /* 隐藏 */
+    display: none;
+}
+.popup .panel .close:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.popup .panel .close:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.popup .panel .close:before, 
+.popup .panel .close:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    content: '';
+    display: block;
+    width: 100%;
+    height: .3em;
+    background-color: #fff;
+}
+/* 视频区域 */
+.popup .panel video {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
