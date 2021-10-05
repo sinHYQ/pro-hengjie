@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* 轮播 */
+
+.index-banner-z .swiper-wrapper .swiper-slide {
+    position: relative;
+}
+
+@media (min-width: 2048px) {
+    .index-banner-z {
+        width: 1920px;
+        margin: 0 auto;
+    }
+}
+
+
+/* 轮播小圆点样式 */
+
+.index-banner-z img {
+    width: 100%;
+}
+
+.index-banner-z .swiper-pagination {
+    left: auto;
+    right: 10em !important;
+    bottom: 345.719px;
+    width: auto;
+}
+
+.custom-swiper .swiper-pagination-bullet {
+    width: 9px;
+    height: 10px;
+    background: url(../images/swiper-pagination-z.png) no-repeat 0 0;
+    border-radius: 0;
+}
+
+
+/* 智能一体机 */
+
+.intelligent-z .container {
+    width: 100%;
+}
+
+.product-z {
+    position: relative;
+    margin: 0 auto;
+    padding: 4.5em 0;
+    font-size: 12px;
+    background-color: #fff;
+    opacity: 0.9;
+    z-index: 3;
+}
+
+.product-z .toggle-con-z {
+    margin: 0.5em auto;
+}
+
+.product-z .toggle-con-z li {
+    position: relative;
+    padding: 1em 0;
+    float: left;
+    width: 11.1%;
+    border-left: 1px dashed #d4d4d4;
+    text-align: center;
+    z-index: 3;
+}
+
+.toggle-con-z li:last-child {
+    border-right: 1px dashed #d4d4d4;
+}
+
+.toggle-con-z li a {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.toggle-con-z li ul {
+    position: absolute;
+    top: 9em;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+.product-z .toggle-con-z li ul li {
+    padding: 0.5em 0;
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dashed #d4d4d4;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.product-z .toggle-con-z li ul li:last-child {
+    border-bottom-style: none;
+}
+
+.product-z .toggle-con-z li ul li a {
+    color: #898989;
+}
+
+.toggle-con-z li a span {
+    margin: 0 auto;
+    display: block;
+    color: #424242;
+}
+
+.toggle-con-z li a span:last-child {
+    margin-top: 1.75em;
+}
+
+.toggle-con-z li a .center-block-z {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* 网页网上滚时，智能一体机固定在顶部 */
+
+.is-scroll-z .align-scroll-z {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.is-scroll-z .align-scroll-z .toggle-con-z {
+    width: 80%;
+}
+
+.is-scroll-z .align-scroll-z .toggle-con-z>li {
+    border-style: none;
+}
+
+.align-scroll-z .toggle-con-z li a {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.align-scroll-z .toggle-con-z li a span {
+    float: left;
+    text-align: left;
+}
+
+.align-scroll-z .toggle-con-z li a span:first-child {
+    margin-left: 5%;
+    width: 25%;
+}
+
+.align-scroll-z .toggle-con-z li a span:last-child {
+    margin-top: 0.3em;
+    float: right;
+    width: 66%;
+}
+
+.align-scroll-z .toggle-con-z li ul {
+    top: 4em;
+}
+
+
+/* banner---弹性盒子 */
+
+.second-banner-z {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.second-banner-z .second-banner-item-z {
+    position: relative;
+    display: block;
+    flex: 1;
+    overflow: hidden;
+    transition: all 0.1s ease-out;
+}
+
+.second-banner-z .second-banner-item-z:hover {
+    flex-basis: 100%;
+}
+
+.second-banner-z .second-banner-item-z:hover .banner-img-z {
+    transform: translateX(0);
+}
+
+.second-banner-z .second-banner-item-z:hover .banner-img--dim-z,
+.second-banner-z .second-banner-item-z:hover .banner-cap-z {
+    opacity: 0;
+}
+
+.second-banner-z .second-banner-item-z .banner-img-z {
+    width: 100vw;
+    transform: translateX(-25%);
+    opacity: 1;
+}
+
+.second-banner-z .second-banner-item-z .banner-img--dim-z {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    transform: translateX(0);
+}
+
+.second-banner-z .second-banner-item-z .banner-cap-z {
+    position: absolute;
+    bottom: 9%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: white;
+    z-index: 5;
+}
+
+.second-banner-item-z .banner-cap-z img {
+    margin: 1vw auto;
+    display: block;
+    width: 3vw;
+}
+
+.second-banner-item-z .banner-cap-z span {
+    font-size: 1.3vw;
+}
+
+
+/* 恒洁热销榜单 */
+
+.hot-product-z {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.hot-product-z img {
+    width: 100%;
+}
+
+.hot-product-z .vertical-align-item {
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+    height: 480px;
+}
+
+.hot-product-z .product-board-container-z {
+    left: 0;
+    width: 54%;
+}
+
+.hot-product-z .product-board-container-z .product-board-z {
+    float: right;
+    width: 500px;
+}
+
+.product-board-container-z .product-board-z .product-board-title-z {
+    width: 400px;
+    height: 154px;
+}
+
+.product-board-container-z .product-board-z .col-md-6:nth-child(n+4) {
+    margin-top: 20px;
+}
+
+.toggle-mask-z {
+    position: relative;
+}
+
+.toggle-mask-z .mask-z {
+    padding: 0 1em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #1a355e;
+    color: white;
+    opacity: 0.8;
+    z-index: 3;
+    text-align: center;
+}
+
+.product-board-z .toggle-mask-z .mask-z {
+    display: none;
+    top: 0;
+    text-align: left;
+}
+
+.toggle-mask-z .mask-z h5 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.toggle-mask-z .mask-z h5 span {
+    position: absolute;
+    margin-left: -1.25em;
+    z-index: 2;
+}
+
+.toggle-mask-z .mask-z p a {
+    float: right;
+    color: white;
+}
+
+.hot-product-z .product-q8-container-z {
+    right: 0;
+    width: 46%;
+}
+
+.hot-product-z .product-q8-container-z .product-q8-ranking-z {
+    padding: 0.5em 2em 0;
+    width: 100%;
+    height: 154px;
+    color: white;
+    background-color: #1b365d !important;
+    background: url(../images/product-ranking-1366-z.png) no-repeat 0 0;
+}
+
+.product-q8-container-z .product-q8-ranking-z h3 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.product-q8-container-z .product-q8-ranking-z h3 span {
+    position: absolute;
+    margin-left: -1.5em;
+    z-index: 2;
+}
+
+.btn-hegii-z.btn-hegii-white-z {
+    color: #1a355e;
+    background-color: #fff;
+}
+
+.btn-hegii-z {
+    position: relative;
+    padding: .5em 1.3em .5em 1.5em;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.rank-like-z {
+    display: inline-block;
+    margin-left: 8em;
+    color: white;
+    vertical-align: middle;
+}
+
+.rank-like-z:hover {
+    color: white;
+}
+
+.hot-product-z .product-q8-container-z .product-q8-z {
+    width: 500px;
+}
+
+@media (min-width: 2048px) {
+    .hot-product-z {
+        width: 1920px;
+    }
+}
+
+
+/* 套间灵感 */
+
+.full-width-z {
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (min-width: 2048px) {
+    .full-width-z {
+        width: 1920px;
+    }
+}
+
+.full-width-z img {
+    width: 100%;
+}
+
+
+/* 万家一品 */
+
+.news-z {
+    margin: 3.25em auto 0;
+    width: 58%;
+}
+
+.news-z .mask-z {
+    height: 20%;
+    line-height: 68px;
+}
+
+
+/* 恒洁技术 */
+
+.recommend-z {
+    margin: 3.25em auto;
+    width: 58%;
+}
+
+.recommend-z .mask-z {
+    height: 100%;
+    line-height: 218px;
+    transition: all 0.3s ease-out;
+}
+
+
+/* -------------关于恒洁------------------ */
+
+
+/* banner */
+
+.default-kv-z {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* 路径导航 */
+
+.container {
+    width: 950px;
+}
+
+.col-fix-padding {
+    padding: 0 5px;
+}
+
+.breadcrumb {
+    margin: 20px 0 3em;
+    padding: 0;
+    background-color: transparent;
+    font-size: 12px;
+    color: #999;
+}
+
+.breadcrumb a {
+    color: #999;
+}
+
+
+/* 关于恒洁内容 */
+
+.about-z {
+    margin: 0 auto 5em;
+    width: 58%;
+    overflow: hidden;
+}
+
+.about-z>p {
+    margin-top: 2em;
+    color: #8a8683;
+    line-height: 200%;
+}
+
+.about-z>div {
+    padding: 0 5px;
+}
+
+.about-z>div:nth-child(n+3) {
+    margin-top: 10px;
+}
+
+.toggle-mask-z {
+    position: relative;
+    height: 100%;
+}
+
+.about-z .toggle-mask-z .mask-z {
+    height: 23.4%;
+}
+
+.toggle-mask-z .mask-z>span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -15px;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
