@@ -1,0 +1,302 @@
+.default-kv {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 2048px) {
+    .default-kv {
+        width: 1920px;
+    }
+}
+
+.col-fix-padding {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 3em;
+    padding: 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.breadcrumb a {
+    color: #999;
+}
+
+.breadcrumb .active {
+    color: #999;
+}
+
+.dealer h1,
+.service-1530 h1,
+.tas-tech-video h1 {
+    color: #1b365d;
+    text-align: center
+}
+
+.dealer hr {
+    margin: .5em 0 .5em 0
+}
+
+.dealer .dealer-container {
+    padding: 3.5em 0 4.5em 0
+}
+
+.dealer .dealer-container .city-info {
+    border-bottom: solid 1px #898989;
+    padding-bottom: 1em
+}
+
+.dealer .dealer-container .city-info .col-md-7 {
+    padding-left: 0
+}
+
+.dealer .dealer-container .city-info .col-md-5 {
+    padding-right: 0;
+    text-align: right
+}
+
+.dealer .dealer-container .city-select {
+    margin-top: 1em
+}
+
+.dealer .dealer-container .city-select .col-md-3 {
+    padding-left: 0
+}
+
+.dealer .dealer-container .city-select .col-md-4 {
+    padding-left: 0
+}
+
+.dealer .dealer-container .city-select .col-md-4 .form-group {
+    width: 100%
+}
+
+.dealer .dealer-container .city-select .col-md-4 .form-group select {
+    width: 100%
+}
+
+.dealer .dealer-container .dealer-map {
+    width: 60%;
+    height: 420px
+}
+
+.dealer .dealer-container .dealer-map #bdmap {
+    width: 100%;
+    height: 100%
+}
+
+.dealer .dealer-container .dealer-list {
+    width: 38%;
+    color: #1b365d
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container {
+    position: relative;
+    margin-top: 20px;
+    height: 318px;
+}
+
+.ps {
+    /* touch-action: auto; */
+    /* overflow-y: auto !important; */
+    overflow: hidden !important;
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner {
+    background-color: #eaeaea;
+    position: absolute;
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner .dealer-list-item {
+    /* position: absolute; */
+    padding: 1.15em 2.5em;
+    border-bottom: solid 1px #1b365d;
+    cursor: pointer
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner .dealer-list-item:last-child {
+    border-bottom-style: none
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner .dealer-list-item .address {
+    color: #898989
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner .dealer-list-item .link-action {
+    margin-top: 1em
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner .dealer-list-item .link-action a {
+    width: 6em;
+    text-align: center;
+    padding: .25em 0;
+    background-color: #1b365d;
+    color: #fff;
+    display: inline-block
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner .dealer-list-item .link-action a:last-child {
+    margin-left: 1em
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner .send-to-mobile {
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em auto
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner .send-to-mobile .close-button {
+    padding-bottom: 1em
+}
+
+.dealer .dealer-container .dealer-list .dealer-list-container .dealer-list-inner .send-to-mobile .btn-hegii {
+    width: 80%
+}
+
+
+/* perfect-scrollbar v0.7.0 */
+
+@supports (-ms-overflow-style: none) {
+    .ps {
+        overflow: auto !important
+    }
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .ps {
+        overflow: auto !important
+    }
+}
+
+.ps.ps--active-x>.ps__scrollbar-x-rail,
+.ps.ps--active-y>.ps__scrollbar-y-rail {
+    display: block;
+    background-color: transparent
+}
+
+.ps.ps--in-scrolling.ps--x>.ps__scrollbar-x-rail {
+    background-color: #eee;
+    opacity: .9
+}
+
+.ps.ps--in-scrolling.ps--x>.ps__scrollbar-x-rail>.ps__scrollbar-x {
+    background-color: #999;
+    height: 11px;
+    left: 0;
+    width: 0;
+}
+
+.ps.ps--in-scrolling.ps--y>.ps__scrollbar-y-rail {
+    background-color: #eee;
+    opacity: .9;
+    top: 0;
+    right: 0;
+    height: 318px;
+}
+
+.ps.ps--in-scrolling.ps--y>.ps__scrollbar-y-rail>.ps__scrollbar-y {
+    background-color: #999;
+    width: 11px;
+    height: 57px;
+    top: 0;
+}
+
+.ps>.ps__scrollbar-x-rail {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    transition: background-color .2s linear, opacity .2s linear;
+    bottom: 0px;
+    height: 15px
+}
+
+.ps>.ps__scrollbar-x-rail>.ps__scrollbar-x {
+    position: absolute;
+    background-color: #aaa;
+    border-radius: 6px;
+    transition: background-color .2s linear, height .2s linear, width .2s ease-in-out, border-radius .2s ease-in-out;
+    bottom: 2px;
+    height: 6px
+}
+
+.ps>.ps__scrollbar-x-rail:hover>.ps__scrollbar-x,
+.ps>.ps__scrollbar-x-rail:active>.ps__scrollbar-x {
+    height: 11px
+}
+
+.ps>.ps__scrollbar-y-rail {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    transition: background-color .2s linear, opacity .2s linear;
+    right: 0;
+    width: 15px
+}
+
+.ps>.ps__scrollbar-y-rail>.ps__scrollbar-y {
+    position: absolute;
+    background-color: #aaa;
+    border-radius: 6px;
+    transition: background-color .2s linear, height .2s linear, width .2s ease-in-out, border-radius .2s ease-in-out;
+    right: 2px;
+    width: 6px
+}
+
+.ps>.ps__scrollbar-y-rail:hover>.ps__scrollbar-y,
+.ps>.ps__scrollbar-y-rail:active>.ps__scrollbar-y {
+    width: 11px
+}
+
+.ps:hover.ps--in-scrolling.ps--x>.ps__scrollbar-x-rail {
+    background-color: #eee;
+    opacity: .9;
+    left: 0;
+    bottom: 0;
+}
+
+.ps:hover.ps--in-scrolling.ps--x>.ps__scrollbar-x-rail>.ps__scrollbar-x {
+    background-color: #999;
+    height: 11px
+}
+
+.ps:hover.ps--in-scrolling.ps--y>.ps__scrollbar-y-rail {
+    background-color: #eee;
+    opacity: .9
+}
+
+.ps:hover.ps--in-scrolling.ps--y>.ps__scrollbar-y-rail>.ps__scrollbar-y {
+    background-color: #999;
+    width: 11px
+}
+
+.ps:hover>.ps__scrollbar-x-rail,
+.ps:hover>.ps__scrollbar-y-rail {
+    opacity: .6
+}
+
+.ps:hover>.ps__scrollbar-x-rail:hover {
+    background-color: #eee;
+    opacity: .9
+}
+
+.ps:hover>.ps__scrollbar-x-rail:hover>.ps__scrollbar-x {
+    background-color: #999
+}
+
+.ps:hover>.ps__scrollbar-y-rail:hover {
+    background-color: #eee;
+    opacity: .9
+}
+
+.ps:hover>.ps__scrollbar-y-rail:hover>.ps__scrollbar-y {
+    background-color: #999
+}

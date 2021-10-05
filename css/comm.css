@@ -1,0 +1,251 @@
+#swiper-container-ecomm {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto
+}
+
+#swiper-container-ecomm .swiper-pagination-ecomm {
+    position: absolute;
+    bottom: 1em;
+    z-index: 2;
+    text-align: center
+}
+
+#swiper-container-ecomm .swiper-pagination-ecomm .swiper-pagination-bullet {
+    width: 11px;
+    height: 11px;
+    margin: 0 1em;
+    opacity: 1;
+    background: url(../images/comm/swiper-pagination-2.png) no-repeat -11px 0;
+    border-radius: 0
+}
+
+#swiper-container-ecomm .swiper-pagination-ecomm .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-position: 0 0
+}
+
+#swiper-container-ecomm .swiper-slide {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2
+}
+
+#swiper-container-ecomm .swiper-slide img {
+    position: relative;
+    z-index: 1;
+    width: 100%
+}
+
+@media (min-width:2048px) {
+    #swiper-container-ecomm {
+        width: 1920px
+    }
+}
+
+.ecomm-bar {
+    border-bottom: #cdcdcd solid 1px;
+    background: #f6f6f6;
+    margin-bottom: 10em;
+    margin: 0 auto
+}
+
+.ecomm-bar div {
+    float: left;
+    width: 34%;
+    text-align: center;
+    padding: 1.5em 0;
+    border-right: #cdcdcd solid 1px;
+    margin-left: -2%
+}
+
+.ecomm-bar div.tmall {
+    margin-left: 0
+}
+
+.ecomm-bar div.jd-self {
+    border-right: none
+}
+
+@media (min-width:2048px) {
+    .ecomm-bar {
+        width: 1920px
+    }
+}
+
+.ecomm-list {
+    min-height: 730px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2em
+}
+
+.ecomm-list .ecomm-list-rows {
+    position: relative;
+    top: 0;
+    height: 730px
+}
+
+.ecomm-list .ecomm-list-rows .item-small {
+    width: 49%;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    vertical-align: top
+}
+
+.ecomm-list .ecomm-list-rows .item-small .item-board {
+    width: 500px
+}
+
+.ecomm-list .ecomm-list-rows .item-small .item-board .item-board-title {
+    height: 122px
+}
+
+.ecomm-list .ecomm-list-rows .item-small .item-board .col-md-6:nth-child(n+4) {
+    margin-top: 20px
+}
+
+.ecomm-list .ecomm-list-rows .item-small .item-board .mask {
+    height: 100%;
+    display: none;
+    text-align: left
+}
+
+.toggle-mask .mask {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: #1a355e;
+    -moz-opacity: .8;
+    opacity: .8;
+    color: #fff;
+    text-align: center;
+}
+
+.ecomm-list .ecomm-list-rows .item-small .item-board .mask p a {
+    margin-bottom: .5em;
+}
+
+.btn-hegii.btn-hegii-white {
+    background-color: #fff;
+    color: #1a355e;
+}
+
+.btn-hegii {
+    display: inline-block;
+    padding: .5em 1.3em .5em 1.5em;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    letter-spacing: .2em;
+}
+
+.ecomm-list .ecomm-list-rows .item-small .item-board .mask h5 {
+    position: relative;
+    font-size: 1.25em;
+    left: 0;
+    letter-spacing: .2em;
+    margin: 1.75em 0 .5em 1.5em;
+    line-height: 150%
+}
+
+.ecomm-list .ecomm-list-rows .item-small .item-board .mask h5 span {
+    position: absolute;
+    margin-left: -1.75em;
+    z-index: 2
+}
+
+.ecomm-list .ecomm-list-rows .item-small .item-board .mask p {
+    margin-left: 1.75em
+}
+
+.ecomm-list .ecomm-list-rows .item-small .item-board .mask p a {
+    margin-bottom: .5em
+}
+
+.ecomm-list .ecomm-list-rows .item-big {
+    width: 49%;
+    position: absolute;
+    top: 0
+}
+
+.ecomm-list .ecomm-list-rows .item-big img {
+    max-width: 100%
+}
+
+.ecomm-list .ecomm-list-rows .item-big .product-big {
+    width: 500px
+}
+
+.ecomm-list .ecomm-list-rows .item-big .product-big-top {
+    width: 100%;
+    height: 154px;
+    background-color: #1f4777;
+    padding: 0 2em;
+    padding-top: .5em;
+    color: #fff
+}
+
+.ecomm-list .ecomm-list-rows .item-big .product-big-top h3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    line-height: 120%;
+    letter-spacing: .2em
+}
+
+.ecomm-list .ecomm-list-rows .item-big .product-big-top h3 span {
+    position: absolute;
+    margin-left: -1.5em;
+    z-index: 2
+}
+
+.ecomm-list .ecomm-list-rows .item-big .product-big-top .btn-hegii {
+    margin-right: 1em
+}
+
+@media (min-width:2048px) {
+    .ecomm-list {
+        width: 1920px
+    }
+}
+
+.big-right .item-big {
+    right: 0
+}
+
+.big-right .item-small {
+    left: 0
+}
+
+.big-right .item-small .item-board {
+    float: right
+}
+
+.big-left .item-big {
+    left: 0
+}
+
+.big-left .item-big .product-big-top {
+    float: right
+}
+
+.big-left .item-big .product-big-top div:first-child {
+    float: right
+}
+
+.big-left .item-big .product-big {
+    float: right
+}
+
+.big-left .item-small {
+    right: 0
+}
+
+.ecomm-list-rows.big-left .item-big .product-big-top {
+    padding-right: 9em
+}
